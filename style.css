@@ -1,12 +1,52 @@
 * {
-    background-color: #a2d2d6;
-}
-#hero-section {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 230, 230);
     font-family: "Poppins", sans-serif;
-    color: rgba(225, 3, 3, 0.831);
 }
-.h3 {
-    text-align: center;
-    font-style: italic;
-    margin-top: 50px;
+
+main {  
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+    padding: 4px;
+    background-color: cadetblue;
+    border-radius: 6px;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.text-header {
+    background-color: coral;
+}
+
+.img-header {
+    background-color: blueviolet;
+}
+
+.biography {
+    display: grid;
+    grid-template-columns: 40% 35% 25%;
+}
+
+.biography1 {
+    background-color: chocolate;
+}
+
+.biography2 {
+    background-color: blueviolet;
+}
+
+.biography3 {
+    background-color: crimson;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
