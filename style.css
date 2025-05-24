@@ -5,58 +5,160 @@
 }
 
 body {
-    background-color: rgb(209, 174, 243);
+    background-color: #e5d3f3;
+    color: #222;
 }
 
-main {  
+main {
     width: 90%;
+    margin: 4% auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 4px
+}
+
+.hero {
     display: flex;
-    flex-direction: column;
-    margin: 4%;
-    padding: 4px;
-    background-color: cadetblue;
-    border-radius: 6px;
+    gap: 20px;
+    margin-bottom: 4px;
 }
 
-header {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.text-header {
-    background-color: coral;
-}
-
-.img-header {
-    background-color: blueviolet;
-}
-
-.biography {
-    display: grid;
-    grid-template-columns: 40% 35% 25%;
-}
-
-.biography1 {
-    background-color: chocolate;
-}
-
-.biography2 {
-    background-color: blueviolet;
-}
-
-.biography3 {
-    background-color: crimson;
-}
-
-article {
-    display: grid;
-    grid-template-columns: 30% 70%;
+.hero-text {
+    flex: 1;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 2%;
 }
 
 nav {
-    display: grid;
-    grid-template-columns: 32% 32% 32;
+    margin-bottom: 60px;
 }
 
+nav a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #4b0082;
+    font-weight: 500px;
+}
 
+h1, h3 {
+    color: #4b0082;
+    margin-bottom: 4px;
+}
 
+.h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.h3 {
+    font-size: 20px;
+    font-style: bold;
+}
+
+.hero-text p {
+    font-style: italic;
+    color: #444;
+    margin-top: 60px;
+ 
+}
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ccc;
+    margin-top: 20px;
+}
+.hero-img img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 8px;
+    float: right;
+}
+
+.biography {
+    margin: 5%;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.profesi {
+    margin-top: 4px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.bio-column {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.bio-col {
+    flex: 1;
+    min-width: 280px;
+}
+
+.bio-col img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.iconic {
+    margin: 5%;
+}
+
+.iconic-right {
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.profesi-right {
+    text-align: right;
+    margin-top: 4px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.iconic-content {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.iconic-img{
+    display: flex;
+}
+
+.iconic-img img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.iconic-text {
+    flex: 1;
+    border-radius: 8px;
+}
+
+.iconic-text2 {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.iconic-text img{
+    flex: 1;
+    margin-top: 10px;
+    max-width: 220px;
+    border-radius: 8px;
+}
