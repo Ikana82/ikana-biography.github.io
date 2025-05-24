@@ -1,8 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: rgb(237, 230, 230);
     font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(209, 174, 243);
 }
 
 main {  
@@ -49,4 +52,11 @@ article {
     display: grid;
     grid-template-columns: 30% 70%;
 }
+
+nav {
+    display: grid;
+    grid-template-columns: 32% 32% 32;
+}
+
+
 
