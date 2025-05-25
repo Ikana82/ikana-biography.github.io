@@ -7,7 +7,7 @@
 body {
     background-color: #06071b;
     color: #eee;
-    text-align: justify;
+   
 }
 
 main {
@@ -32,6 +32,7 @@ main {
     margin-left: 5%;
     margin-top: 3%;
     margin-right: 2%;
+    text-align: justify;
 }
 
 .logo-img {
@@ -133,6 +134,7 @@ h2 {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    text-align: justify;
 }
 
 .bio-col {
@@ -188,6 +190,7 @@ h2 {
     flex: 1;
     border-radius: 8px;
     color: #444;
+    text-align: justify;
 }
 
 .iconic-text2 {
